@@ -35,7 +35,7 @@ export const ItemDialog = (props) => {
   } = useInput(props.item ? props.item.color : '');
 
   const {
-    value: value,
+    value,
     bind: bindValue,
     reset: resetValue
   } = useInput(props.item ? formatValue(props.item.value) : '');
