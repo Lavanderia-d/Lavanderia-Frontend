@@ -118,7 +118,7 @@ export const Order = () => {
     getOrderById(id).then((response) => {
         setOrder(response.data);
     });
-  }, []);
+  });
   
   const handleCloseDialog = () => setShowDialog(false);
   const handleShowDialog = () => setShowDialog(true);

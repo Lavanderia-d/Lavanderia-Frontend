@@ -26,7 +26,7 @@ export const ItemDialog = (props) => {
     value: type,
     bind: bindType,
     reset: resetType
-  } = useInput(props.item ? getTypeStr(props.item.type) : '');
+  } = useInput(props.item ? getTypeStr(props.item.type) : 'Social');
   
   const {
     value: color,

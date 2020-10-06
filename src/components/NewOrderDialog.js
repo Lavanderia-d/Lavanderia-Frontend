@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Modal, Form } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
 
